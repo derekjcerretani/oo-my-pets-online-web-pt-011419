@@ -48,7 +48,6 @@ class Owner
     self.pets[:dogs][mood].map! do |mood|
       @mood = "happy"
     end
-    self.pets
   end
 
 
