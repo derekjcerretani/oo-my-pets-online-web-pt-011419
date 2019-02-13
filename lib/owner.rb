@@ -70,7 +70,7 @@ class Owner
     self.pets[:fishes].map do |fish| 
       pet_fish << fish
     end
-    
+
     dog = self.pets[:dogs].count
     binding.pry
   end
