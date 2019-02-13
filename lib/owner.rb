@@ -66,7 +66,7 @@ class Owner
   end
 
   def list_pets
-    fish.count = self.pets[:fishes]
+    fish = self.pets[:fishes].count
     binding.pry
   end
 
