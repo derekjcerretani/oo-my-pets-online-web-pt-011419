@@ -80,7 +80,7 @@ class Owner
     end
 
     "I have #{pet_fish.count} fish, #{} dog(s), and #{} cat(s)."
-    binding.pry
+    #binding.pry
   end
 
 
