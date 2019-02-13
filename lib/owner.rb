@@ -46,7 +46,6 @@ class Owner
 
   def walk_dogs
     self.pets[:dogs].map! { |mood| @mood = "happy"}
-    dog.mood
     binding.pry
   end
 
