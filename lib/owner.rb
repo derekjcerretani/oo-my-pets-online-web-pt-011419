@@ -66,7 +66,11 @@ class Owner
   end
 
   def list_pets
-    fish = self.pets[:fishes].each { |fish| fish.count }
+    pet_fish = []
+    self.pets[:fishes].map do |fish| 
+      pet_fish << fish
+    end
+    
     dog = self.pets[:dogs].count
     binding.pry
   end
