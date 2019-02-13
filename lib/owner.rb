@@ -79,6 +79,7 @@ class Owner
       pet_dog << dog
     end
 
+    I 
     binding.pry
   end
 
