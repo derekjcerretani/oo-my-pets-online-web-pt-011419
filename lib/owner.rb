@@ -38,7 +38,7 @@ class Owner
     cat = Cat.new(name)
     self.pets[:cats] = [cat]
   end
-  
+
 
 
 end
