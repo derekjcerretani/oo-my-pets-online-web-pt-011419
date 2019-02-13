@@ -2,7 +2,8 @@ class Owner
 
   @@all = []
 
-  def initialize
+  def initialize(species)
+    @species = species
   end
 
   def self.all
