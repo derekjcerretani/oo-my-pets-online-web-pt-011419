@@ -69,13 +69,13 @@ class Owner
     pet_fish = []
     pet_dog = []
     pet_cat = []
-    self.pets[:fishes].map do |fish| 
+    self.pets[:fishes].map do |fish|
       pet_fish << fish
     end
-    self.pets[:cats].map do |cat| 
+    self.pets[:cats].map do |cat|
       pet_cat << cat
     end
-    self.pets[:dogs].map do |dog| 
+    self.pets[:dogs].map do |dog|
       pet_dog << dog
     end
 
