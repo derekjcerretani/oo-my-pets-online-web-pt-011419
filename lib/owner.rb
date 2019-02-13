@@ -79,7 +79,7 @@ class Owner
       pet_dog << dog
     end
 
-    I 
+    "I have #{pet_fish.count} fish, #{} dog(s), and #{} cat(s)."
     binding.pry
   end
 
