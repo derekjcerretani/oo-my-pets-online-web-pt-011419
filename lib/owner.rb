@@ -52,20 +52,20 @@ class Owner
   end
 
   def play_with_cats
-    self.pets[:cats].map { |cat| cat.mood = "happy"}
+    pets[:cats].map { |cat| cat.mood = "happy"}
   end
 
   def feed_fish
-    self.pets[:fishes].map { |fish| fish.mood = "happy"}
+    pets[:fishes].map { |fish| fish.mood = "happy"}
   end
 
   def sell_pets
-    self.pets.map do |animals, pets|
+    pets.map do |animals, pets|
       pets.each do |pet|
         pet.mood = "nervous"
       end
     end
-    self.pets.clear
+    pets.clear
   end
 
   def list_pets
