@@ -5,6 +5,6 @@ class Owner
   def all
     @all << self
   end
-    
-  
+
+
 end
