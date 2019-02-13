@@ -45,7 +45,7 @@ class Owner
   end
 
   def walk_dogs
-    self.pets[dog]
+    self.pets[dogs]
     binding.pry
   end
 
