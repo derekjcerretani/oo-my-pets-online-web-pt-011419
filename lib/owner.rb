@@ -62,7 +62,7 @@ class Owner
         pet.mood = "nervous"
       end
     end
-    #binding.pry
+    binding.pry
   end
 
 
