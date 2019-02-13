@@ -66,20 +66,9 @@ class Owner
   end
 
   def list_pets
-    pet_fish = []
-    pet_dog = []
-    pet_cat = []
-    self.pets[:fishes].map do |fish|
-      pet_fish << fish
-    end
-    self.pets[:cats].map do |cat|
-      pet_cat << cat
-    end
-    self.pets[:dogs].map do |dog|
-      pet_dog << dog
-    end
+    
 
-    "I have #{pet_fish.count} fish, #{} dog(s), and #{} cat(s)."
+    "I have #{self.pets[:fishes]} fish, #{} dog(s), and #{} cat(s)."
     #binding.pry
   end
 
