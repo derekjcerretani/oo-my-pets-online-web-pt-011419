@@ -3,7 +3,7 @@ class Owner
   @@all = []
 
   def self.all
-    @all << self
+    @@all << self
   end
 
 
