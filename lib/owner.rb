@@ -28,6 +28,7 @@ class Owner
   end
 
   def buy_fish(name)
+    self.pets[:fish] = name
 
   end
 
