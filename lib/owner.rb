@@ -57,8 +57,8 @@ class Owner
   end
 
   def sell_pets
-    self.pets.map { |pets, pet| pets.mood = "nervous"}
-    #binding.pry
+    self.pets.map { |pets, pet| pet.mood = "nervous"}
+    binding.pry
   end
 
 
